@@ -3,7 +3,7 @@ import './styles/App.scss';
 import Header from './components/Header';
 import Slider from './components/Slider';
 import News from './components/News';
-import PhotoGallery from './components/PhotoGallery';
+
 import Footer from './components/Footer';
 
 const App: React.FC = () => {
@@ -18,7 +18,6 @@ const App: React.FC = () => {
                     <br></br>
                 </div>
                 <br></br>
-                <PhotoGallery />
             </main>
             <br></br>
             <Footer />
